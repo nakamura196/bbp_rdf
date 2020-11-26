@@ -4,8 +4,8 @@ var Snorqldef = {
 	//overrides Snorql class variables
 	vars: {
 		//_endpoint: "/works/ld/jpsearch/ep",
-		_endpoint: "https://diyhistory.org/c.php/http://3.91.74.60:8890/sparql",
-		_poweredByLink: "http://3.91.74.60:8080/exist/apps/tei-publisher/index.html",
+		_endpoint: "https://diyhistory.org/c.php/http://diyhistory.org:8890/sparql",
+		_poweredByLink: "http://diyhistory.org:8080/exist/apps/tei-publisher/index.html",
 		_poweredByLabel: "BBP DB",
 		default_query: "SELECT DISTINCT * \nFROM <http://localhost:8890/bbp> \nWHERE {\n\t?s rdfs:label ?label . \n}\nORDER BY ?s\nLIMIT 100",
 		link_img: "link.png",	//relative position 2019-01-20
